@@ -27,7 +27,8 @@ export const CTA = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button 
               size="lg" 
-              className="text-lg px-8 py-6 bg-gradient-accent hover:shadow-glow transition-all duration-300 hover:scale-105"
+              variant="whatsapp"
+              className="text-lg px-8 py-6 transition-all duration-300 hover:scale-105"
               onClick={handleWhatsApp}
             >
               <MessageCircle className="mr-2" />

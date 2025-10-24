@@ -59,8 +59,8 @@ export const Hero = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline" 
-              className="text-lg px-8 py-6 border-primary/50 hover:bg-primary/10 hover:border-primary transition-all duration-300"
+              variant="whatsapp"
+              className="text-lg px-8 py-6 transition-all duration-300 hover:scale-105"
               onClick={handleWhatsApp}
             >
               <MessageCircle className="mr-2" />
